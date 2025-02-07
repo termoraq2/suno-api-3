@@ -538,7 +538,7 @@ class SunoApi {
       continue_at: continue_at,
       continue_clip_id: continue_clip_id,
       task: task,
-      token: await this.getCaptcha()
+      token: null
     };
     if (isCustom) {
       payload.tags = tags;
